@@ -5,7 +5,7 @@ import './style.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp/>
+        <FirstApp title='Funcionado '  subTitle={ 4 * 7}/>
     </React.StrictMode>
 )
 

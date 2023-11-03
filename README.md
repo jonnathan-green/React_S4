@@ -25,6 +25,14 @@ Envuelva elementos para <Fragment>agruparlos en situaciones en las que necesite 
 - Si lo hacemos con una promesa arrojaria error ya que en pocas palabras seria un objeto
 - Recomendable poner nuestras funciones fuera de nuestros componentes, siempore y cuandoi no tengamos ninguna dependencia
 
-# 40 Añadir estilos CSS
+# 41 Comunicacion entre componentes
 
-- 
+- Las propiedades (Proops) Me pérmiten establecer comunicacion con el padre, y es un objeto 
+
+# 42 Proptypes
+
+- Obligar a otra persona que usea mis componentes a enviar nuestra propieda, titulo subtitulo etc
+
+- Puedes definir static propTypes junto con la biblioteca prop-types para declarar los tipos de las props aceptadas por tu componente. Estos tipos se comprobarán durante el renderizado y sólo en el desarrollo.
+
+*NOTA*: Recomendamos utilizar TypeScript en lugar de comprobar los tipos de prop en tiempo de ejecución.

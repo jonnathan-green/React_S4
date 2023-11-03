@@ -1,13 +1,18 @@
-const Ejecutar = (x , y) =>{
-    return x * y;
+
+import  PropTypes  from "prop-types";
+
+export const FirstApp = ({ title, subTitle}) =>{
+    return (
+        <>
+
+        <em> { title }</em>
+
+        <h2> { subTitle }</h2>
+        </>
+    )
 }
 
-export const FirstApp = () =>{
-    return (
-    <>
-    <h1> { Ejecutar(8,23) } </h1>
-    <strong> Ingeniero de sistemas </strong>
-    </>
-    )
-
+FirstApp.propTypes = {
+    title: PropTypes.string.isRequired,
+    subTitle: PropTypes.number.isRequired
 }
