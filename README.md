@@ -36,3 +36,15 @@ Envuelva elementos para <Fragment>agruparlos en situaciones en las que necesite 
 - Puedes definir static propTypes junto con la biblioteca prop-types para declarar los tipos de las props aceptadas por tu componente. Estos tipos se comprobarán durante el renderizado y sólo en el desarrollo.
 
 *NOTA*: Recomendamos utilizar TypeScript en lugar de comprobar los tipos de prop en tiempo de ejecución.
+
+# 43 Default props
+
+- Mecanismo que tiene React para establecer un valor por default a las propiedades que no fueron definidas en la creación del componente, de esta forma, podemos establecer un valor y no dejar la propiedad en null.
+
+# 45 Eventos click 
+
+- onclick= {}es un expresion de javascript, esto nos ayuda a crear funciones o que regrese funciones dentro de la misma
+
+# 46 Hooks
+
+- te permiten usar diferentes funciones de React de tus componentes. Puedes usar los Hooks incorporados o combinarlos para construir los tuyos propios.
