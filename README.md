@@ -48,3 +48,11 @@ Envuelva elementos para <Fragment>agruparlos en situaciones en las que necesite 
 # 46 Hooks
 
 - te permiten usar diferentes funciones de React de tus componentes. Puedes usar los Hooks incorporados o combinarlos para construir los tuyos propios.
+
+# Seeccion 5 Pruebas
+
+# 53 Primera prueba 
+
+- Jest: biblioteca de JavaScript para crear, ejecutar y estructurar pruebas. Jest se distribuye como un paquete NPM, puede instalarse en cualquier proyecto de JavaScript. Jest es uno de los corredores de prueba más populares en estos días y la opción predeterminada para la aplicación Create React.
+
+-
